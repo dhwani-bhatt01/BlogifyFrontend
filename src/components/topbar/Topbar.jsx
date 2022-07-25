@@ -4,7 +4,7 @@ import { Context } from "../../context/Context";
 
 export default function Topbar() {
 	const { user, dispatch } = useContext(Context);
-	const PF = "http://localhost:5000/images/";
+	const PF = "https://blogify-app-backend.herokuapp.com/images/";
 
 	let img = "default.png";
 	if (user && user?.profilePic) {

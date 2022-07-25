@@ -11,7 +11,7 @@ export default function Settings() {
 	const [password, setPassword] = useState("");
 	const [success, setSuccess] = useState(false);
 
-	const PF = "http://localhost:5000/images/";
+	const PF = "https://blogify-app-backend.herokuapp.com/images/";
 
 	let img = "default.png";
 	if (user && user?.profilePic) {
